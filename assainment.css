@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* navber */
+.navber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 25px;
+    color: blue;
+}
+
+.signup-btn {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* banner */
+
+.banner-content {
+    font-size: 36px;
+    font-style: oblique;
+    text-align: center;
+    padding: 100px 20px;
+    color: rgb(51, 44, 36);
+}
+
+.focus-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+.nb-section {
+    background-image: url("./B12A01-landing-launchpad/ui/Assets/Hero-bg.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
