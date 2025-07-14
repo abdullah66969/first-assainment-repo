@@ -26,6 +26,7 @@ body {
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+    /*[part of chellang section] */
 }
 
 /* banner */
@@ -46,6 +47,7 @@ body {
     border: none;
     border-radius: 7px;
     cursor: pointer;
+    /*[part of chellang section] */
 }
 
 .nb-section {
@@ -87,6 +89,7 @@ body {
     font-size: 16px;
     border-radius: 6px;
     cursor: pointer;
+    /*[part of chellang section] */
 }
 
 .action-right img {
@@ -197,6 +200,7 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    /*[part of chellang section] */
 }
 
 .footer {
@@ -223,4 +227,69 @@ footer p {
 .footer-links a {
     margin: 0px 10px;
     text-decoration: underline;
+}
+
+/* user feedback chellange section */
+.feedback-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.feedback-title {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #222;
+}
+
+.feedback-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.feedback-ucard {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 300px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.star img {
+    width: 18px;
+    height: 18px;
+    margin-right: 2px;
+}
+
+.feedback-ucard h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.feedback-ucard p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reviewer img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.reviewer span {
+    font-size: 14px;
+    font-weight: 500;
 }
